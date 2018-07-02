@@ -4,7 +4,7 @@ create table persistent_logins (username varchar(64) not null,
 								token varchar(64) not null,
 								last_used timestamp not null);
 -- 社交登录用的表
-create table imooc_UserConnection (userId varchar(255) not null,
+create table tipask_UserConnection (userId varchar(255) not null,
 	providerId varchar(255) not null,
 	providerUserId varchar(255),
 	rank int not null,
